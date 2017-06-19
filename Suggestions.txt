@@ -1,0 +1,62 @@
+//Suggestions
+
+Game-wide change:
+Start the date at 1813, when Ricardo IV von Britannia becomes Emperor. 1812, Elizabeth III still ruling
+
+China:
+1. Don't use the tributary system, vanilla used it to "accurately" describe the relation between the Ming and Qing to their "tributes"
+	which was essentially a loose diplomatic contact that ostensibly acknowledges China's superiority over them, with little or no other interactions
+	Prestige is key, basically it's there to increase China's ego
+	
+	However, in the show we know that the Chinese empire has a much more powerful control over them. In fact, it seems like India was the *only* are that had major
+	separatism issues, so we can expect that during the 1812's start, China has a much more tighter leash on the other countries. So vassals would be better
+	
+	On the issue of Vietnam and Korea, historically China had a lasting interest towards the two countries. The Han, Tang and Ming all tried to (and succeed with varying amount of time) conquer each country.
+	
+	The Han and Tang both conquered northern Vietnam and northern Korea. Both were lost during the heydays of the dynasty
+	The Ming actually held northern Vietnam for a few decades, but Korea was left alone as Vassals (more than tributes), with influences over succession, until the end of Ming, where they become tributary status.
+	
+	So what I suggest is in this timeline, outright annex Korea, northern Vietnam, and vassalize the rest. SE Asian islands can be held in varying degrees of tributary and annexed status.
+	
+2. Spain should NOT have that many lands in the Pacific, nor should the East Indian Company. An expansionist China and the two nations would not have sat around in peace for centuries this close to each other.
+	I'd like to think that they were similar to the Dutch and Japanese, only having trade relations with each other, with the Europeans not having any military presence in the area.	
+	
+3. Furthermore, China is lagging in tech (5 levels) this early in the game. While the country should be pretty shit by canon time, it should be a more gradual process.
+	Right now, they should have the capability to pummel any force around them (save for Japan, which should get a boost as well). The existence of Spain and East Indian Company really makes it awkward (they should be pummeled but they also shouldn't be pummeled)
+4. Terra Incognita. China should at least know about Russia, and if East Indian Company and Spain are there, then they should know about it too.
+
+5. Names. You guys had the posthmous names, which is fine, except when you combine it with the dynasty name and it's just whack. (It's like saying Plantagenet "the Lionheart")
+	I created a short name-list that I'm willing to keep extending when I have more time.
+	But I'm also thinking about writing event chains that retroactively overwrites the previous ruler's name into Posthmous names based on their deeds and levels. But I still want to dig into the death-mechanics and history-log mechanics.
+6. change the third estate "Shizu" to Eunuchs. China never had a strong religious
+
+Japan:
+1. This timeline, Japan should be powerful enough (through Sakuradite?) To sit beside an expansionist China few centuries (Kamikaze only saved them twice in history)
+2. The powerfulness may be explained by diplomatic ties with several countries not under Chinese influence, or we could have a malus against invasions on the Japanese islands prior to the Knightmare techs are unlocked.
+	If we go with the diplomatic route I'd suggest getting rid of the Tokugawa and replacing them with either the Toyotomi Kubo (Court) or Oda Kubo under Toyotomi Hidenori or Oda Nobunaga
+	historically those two were much more open to foreigners than Tokugawa Ieyasu would ever dream to be (who was scared to death of any dangers to his regime)
+3. Implement two new daimyos (who would've had reduced powers under either Toyotomi or Oda, but it's the best representations under the EUIV system)
+	Kururugi (provinces are Harima, Tajima, and Tango, northwest Honshu beside Ikeda) , cadet branch of Kutsuki/Kuchiki family
+	Tohdo (provinces are Suruga, Owari, and Sagami, basically near Tokyo. Owari is their historical fief). Descendants of Tohdo Takatora
+	We can have an event chain that restores the Emperor and overthrow the Toyotomi under the Kururugi.
+4. First Pacific War Event Chain
+	On war with HBE, when warscore is (war_score_against = x) -90, start a coup that changes Japan into a republic with a Kururugi as Prime Minister.
+
+Russia:
+1. Bolsheviks event chain?
+	Make it a crisis that increases during the Age of Revolution. When it occurs, the Red vs Whites plays out. If you choose to support the Whites, Russia becomes a vassal of EU, otherwise
+	it becomes Communist and everyone around them hates them. (when the Reds fail, there could be a flavour event saying a few ran off to China and contributed to the Equal Wealth movement)
+
+England:
+1. I included a line of pretenders like the Stuarts of our timeline (the Tiberians) so that if desired, we can have Napoleon II rule England with a princess of that line in the 1820s after France kicks out Napoleon I
+
+Britannia:
+1. Add a crisis: "Emblem of Blood", starting conditions happening around 1830s after a decision that institutes polygamy (increased fertility)
+	Canon implied that Emblem of Blood was a dynastic struggle, so probably something to do with too many Britannian princes vying for power.
+	We can even have a short-lived "Republic of Britannia", and later a Edward-Henry I "the Citizen Kings" (Duke of New Orleans) of the cadet House of New Orleans (Basically Louis-Philippe)
+	Event-chain that puts Charles on the throne, gets Geass
+	where Marianne uses the Ganymede and slays Prince Edward Henry, the Duke of New Orleans and	adds Bismarck Waldstein
+	
+	Crisis ends there are no republic governments around Britannia, no rebels, stability above 1, Military-tech up to knightmare, ruler has Geass
+	
+	

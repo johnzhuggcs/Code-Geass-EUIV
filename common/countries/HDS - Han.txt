@@ -1,0 +1,117 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 163 78 0 }
+
+historical_score = 6000
+
+preferred_religion = confucianism
+
+historical_idea_groups = {
+	quantity_ideas
+	aristocracy_ideas
+	administrative_ideas
+	maritime_ideas
+	economic_ideas
+	influence_ideas
+	humanist_ideas
+	defensive_ideas
+	trade_ideas
+}
+
+historical_units = {
+	mixed_order_infantry
+	Bolt_Action
+	Assault_Rifle
+	Micro-Scaled_Railgun
+	Gang_Lou
+	
+	open_order_cavalry
+	Early_Tank
+	Modern_Tank
+	Railgun_Tank
+	Knightmare_Frame
+	3rd_G_Anti-Knightmare
+	
+	flying_battery
+	Artillery
+	Rocket_Artillery
+	4th_G_Seige_Knightmare
+}
+
+monarch_names = { #previously we had temple names down here, temple names are basically epiphets, like Taizu means "Great Progenitor"
+	"Huaiheng #0" = 1
+	"Zhuoling #0" = 1
+	"Zhuofan #0" = 1
+	"Yuxuan #0" = 1
+	"Yuwen #0" = 1
+	"Yuhuan #0" = 1
+	"Shuolan #0" = 1
+	"Shuowei #0" = 1
+	"Shuoshang #0" = 1
+	"Shuojiang #0" = 1
+	"Yuanlang #0" = 1
+	"Yuanhui #0" = 1
+	"Luowen #0" = 1
+	"Luofeng #0" = 1
+	
+	#Shouldn't really include female names, Tianzi's ascension should honestly be a special event
+	"Lihua #0" = -1	  #Lihua Jiang/Tianzi
+	"Huaixiu #0" = 0
+	"Meilan #0" = 0
+	"Meiying #0" = 0
+	
+	"Xingke #0" = 0	  #Xingke Li
+	"Gu #0" = 0		  #Gu Hong
+	"Yuanming #0" = 0 #Yuanming Cao of Militarized Zone of Liaodong
+	
+	"Xianglin #0" = 0 #Xianglin Zhou
+	
+	
+}
+
+leader_names = {
+	Xin Zhou Zhou Zhou Li Li Li Li Li Li Li Li Li Cao Sawazaki Jiao Dai Wan Xun Zhi Deng Fang Zhu Cheng Bo Fang Huan
+	Bao Dao Shi Zheng Rong Ping Yu Quan Zhong Jun Tong Hui Yan Feng Liang Da Yi Ren Qian Fei Yun
+	Mao
+	Jiang Jiang Jiang Jiang Jiang Jiang Jiang
+}
+
+ship_names = {
+	"CMS $PROVINCE$"
+	"CMS Zhengyuan" "CMS Ninyuan" "CMS Huiyuan" "CMS Dingyuan" "CMS Jiyuan" 
+	"CMS Louchuan" "CMS Shachi" "CMS Fanjiang" 
+	"CMS Langsu" "CMS Langzhen"
+	"CMS Haiding" "CMS Haizheng" "CMS Haifu" "CMS Hailong" "CMS Haiwei"
+	"CMS Beiluoshimeng" "CMS Ziwei" "CMS Zhoudin"
+	"CMS Wansuidengfeng" "CMS Shengwei" "CMS Tianxian" "CMS Yongxi" "CMS Wusheng"
+}
+
+army_names = {
+	"Dragon Army"
+	"Army of $PROVINCE$ Commandery"
+	
+	"Celestial Imperial Army"
+	
+	"Liaodong Circuitry" "Jizhou Circuitry" "Menggu Circuitry"  "Qinghai Circuitry"
+	
+	"Anxi Commandery" "Andong Commandery" "Chaoxian Commandery" "Anbei Commandery" "Annan Commandery"
+	
+	"Feathered Forest Guards" "Tiger Valiance Guards"
+	"Divine Machinery" "Divine Martial" "Divine Strategem"
+	"Embroidered Cloaks"
+	"Longwu Army" "Longxiang Army" "Longwei Army"
+	"Tianxiong Army" "Tianxing Army"
+	"Juezhang Guards" "Sheshen Firearms Guards" "Qianniu Grenadier Guards" "Xiaoqi Horse Guards"
+	
+	
+}
+
+fleet_names = { #historically Chinese fleets were named mostly based on area of patrol, so Beiyang (Northern sea) etc...
+	"Louchuan Fleet"
+	
+	"Beiyang Fleet" "Nanyang Fleet"
+	
+	"Donghai Squadron" "Xihai Fleet" "Tianzhu (Indian) Squadron" "Fusang (Japan) Squadron"
+}

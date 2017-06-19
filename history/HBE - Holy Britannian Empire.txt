@@ -1,0 +1,1175 @@
+government = britannian_monarchy
+mercantilism = 25
+technology_group = western
+religion = protestant
+capital = 965 # New York
+primary_culture = britannian
+culture_group_union = britannian_g
+historical_friend = POR
+historical_friend = EIC
+historical_rival = EUN
+historical_rival = OBK
+historical_rival = USJ
+historical_rival = CHF
+national_focus = MIL
+
+1422.8.31 = {
+	monarch = {
+		name = "Henry VI"
+		dynasty = "Lancaster"
+		birth_date = 1421.12.6
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
+}
+
+1434.1.1 = { leader = {	name = "Richard Neville"	type = general	rank = 5	fire = 4	shock = 3	manuever = 5	siege = 3	death_date = 1460.12.31 } }
+
+1435.1.1 = { leader = {	name = "Richard Plantagenet"	type = general	rank = 5	fire = 3	shock = 4	manuever = 3	siege = 2	death_date = 1460.12.30 } }
+
+1445.4.23 = {
+	queen = {
+		country_of_origin = PRO
+		name = "Margaret"
+		dynasty = "de Anjou"
+		birth_date = 1430.3.23
+		death_date = 1471.4.11
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1450.1.1 = { leader = {	name = "John Mowbray"		type = general	rank = 1	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1461.3.4 } }
+
+1453.10.13 = { # Edward of Westminster
+	heir = {
+		name = "Edward"
+		monarch_name = "Edward IV"
+		dynasty = "Lancaster"
+		birth_date = 1453.10.13
+		death_date = 1471.5.4
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}
+
+1455.1.1 = { leader = {	name = "Edmund Beaufort"	type = general	rank = 1	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1461.3.4 } }
+
+1455.1.1 = { leader = {	name = "John Clifford"		type = general	rank = 3	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1461.3.4 } }
+
+1461.3.4 = {
+	monarch = {
+		name = "Edward IV"
+		dynasty = "York"
+		birth_date = 1442.4.28
+		adm = 3
+		dip = 2
+		mil = 4
+		leader = {	name = "Edward IV"             	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 0 }
+	}
+}
+
+1461.3.4 = { # George of Clarence
+	heir = {
+		name = "George"
+		monarch_name = "George I"
+		dynasty = "York"
+		birth_date = 1449.10.21
+		death_date = 1478.2.18
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+
+1461.3.4 = { leader = {	name = "Richard Neville"	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1471.4.14 } }
+
+1461.3.4 = { leader = {	name = "William Hastings"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1483.6.13 } }
+
+1465.5.1 = {
+	queen = {
+		country_of_origin = ENG
+		name = "Elisabeth"
+		dynasty = "Woodville"
+		birth_date = 1437.1.1
+		death_date = 1492.6.8
+		female = yes
+		adm = 2
+		dip = 5
+		mil = 2
+	}
+}
+
+1470.10.30 = {	monarch = {
+		name = "Henry VI"
+		dynasty = "Lancaster"
+		birth_date = 1421.12.6
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+
+1470.10.30 = { # Edward of Westminster
+	heir = {
+		name = "Edward"
+		monarch_name = "Edward V"
+		dynasty = "Lancaster"
+		birth_date = 1453.10.13
+		death_date = 1471.5.4
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}
+
+1471.4.11 = {
+	monarch = {
+		name = "Edward IV"
+		dynasty = "York"
+		birth_date = 1442.4.28
+		adm = 4
+		dip = 3
+		mil = 4
+		leader = {	name = "Edward IV"             	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 0 }
+	}
+}
+
+1471.4.11 = { # Edward V
+	heir = {
+		name = "Edward"
+		monarch_name = "Edward V"
+		dynasty = "York"
+		birth_date = 1470.11.2
+		death_date = 1483.6.26
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1471.4.11 = { leader = {	name = "Richard Plantagenet"	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 1	death_date = 1483.6.25 } }
+1475.8.29 = { remove_accepted_culture = gascon remove_accepted_culture = normand set_global_flag = eng_had_end_of_hundred_years_war } # Treaty of Picuigny
+
+1478.1.18 = { leader = {	name = "Thomas Howard"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1513.10.1 } }
+1483.4.9 = {
+	monarch = {
+		name = "Edward V"
+		dynasty = "York"
+		birth_date = 1470.11.1
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
+
+1483.4.9 = {
+	heir = {
+		name = "Richard"
+		monarch_name = "Richard III"	
+		dynasty = "York"
+		birth_date = 1473.8.17
+		death_date = 1483.6.26
+		claim = 95
+		adm = 2
+		mil = 2
+		dip = 1
+	}
+}
+
+1483.6.26 = {
+	monarch = {
+		name = "Richard III"
+		dynasty = "York"
+
+		adm = 3
+		dip = 2
+		mil = 4
+		leader = {	name = "Richard III"             	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 1 }
+	}
+	queen = {
+		country_of_origin = ENG
+		name = "Anne"
+		dynasty = "Neville"
+		birth_date = 1465.6.11
+		death_date = 1485.3.16
+		female = yes
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+
+1483.6.26 = { # Edward of Middleham
+	heir = {
+		name = "Edward"
+		monarch_name = "Edward VI"
+		dynasty = "York"
+		birth_date = 1473.12.8
+		death_date = 1484.3.31
+		claim = 95
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+
+1485.8.23 = {
+	monarch = {
+		name = "Henry VII"
+		dynasty = "Tudor"
+		birth_date = 1457.1.28
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1485.8.23 = { leader = {	name = "Jasper Tudor"	type = general	rank = 1	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1495.12.21 } }
+1486.1.18 = {
+	queen = {
+		country_of_origin = ENG
+		name = "Elisabeth"
+		dynasty = "York"
+		birth_date = 1466.2.11
+		death_date = 1503.2.11
+		female = yes
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+	
+1486.9.20 = {
+	heir = {
+	    name = "Arthur"
+	    monarch_name = "Arthur I"
+	    dynasty = "Tudor"
+	    birth_date = 1486.9.20
+	    death_date = 1502.4.2
+	    claim = 95
+	    adm = 2
+	    dip = 4
+	    mil = 3
+	} 
+}
+
+1497.1.1 = { leader = {	name = "John Cabot"              	type = explorer	rank = 9	fire = 2	shock = 4	manuever = 5	siege = 0	death_date = 1499.7.2 } }
+
+
+1502.4.2 = {
+	heir = {
+	    name = "Henry"
+	    monarch_name = "Henry VIII"
+	    dynasty = "Tudor"
+	    birth_date = 1491.6.28
+	    death_date = 1547.1.28
+	    claim = 95
+	    adm = 4
+	    dip = 4
+	    mil = 4
+	} 
+}
+
+1508.1.1 = { leader = {	name = "Sebastian Cabot"              	type = explorer	rank = 9	fire = 5	shock = 2	manuever = 4	siege = 0	death_date = 1557.2.8 } }
+
+1509.4.22 = {
+	monarch = {
+		name = "Henry VIII"
+		dynasty = "Tudor"
+		birth_date = 1491.6.28
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1509.6.24 = {
+	queen = {
+		country_of_origin = ARA
+		name = "Catherine"
+		dynasty = "de Trastámara"
+		birth_date = 1485.12.16
+		death_date = 1536.1.7
+		female = yes
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+
+1512.1.1 = { leader = {	name = "Charles Brandon"               	type = general	rank = 0	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1545.8.24 } }
+
+1513.1.1 = { leader = {	name = "Edward Howard"                	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1513.4.25 } }
+
+1516.2.18 = {
+	heir = {
+		name = "Mary"
+		monarch_name = "Mary I"
+		dynasty = "Tudor"
+		birth_date = 1516.2.18
+		death_date = 1558.11.17
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 0
+		female = yes
+	}
+}
+#1525.1.1 = { decision = judiciary_act }
+
+1533.5.28 = {
+	queen = {
+		country_of_origin = ENG
+		name = "Anne"
+		dynasty = "Boleyn"
+		birth_date = 1501.1.1
+		death_date = 1536.5.17
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+1534.1.1 = { 
+ 	# Act of Supremacy
+ 	religion = protestant
+	decision = suffragan_bishop_act
+}
+
+1536.1.1 = {
+	decision = dissolution_of_the_monasteries
+	queen = {
+		country_of_origin = ENG
+		name = "Jane"
+		dynasty = "Seymour"
+		birth_date = 1508.1.1
+		death_date = 1537.11.12
+		female = yes
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+
+
+
+1537.10.12 = {
+	heir = {
+		name = "Edward"
+		monarch_name = "Edward VI"
+		dynasty = "Tudor"
+		birth_date = 1537.10.12
+		death_date = 1553.7.6
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+
+1540.1.6 = {
+	queen = {
+		country_of_origin = KLE
+		name = "Anne"
+		dynasty = "von der Mark"
+		birth_date = 1515.9.22
+		death_date = 1557.7.16
+		female = yes
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1540.7.28 = {
+	queen = {
+		country_of_origin = ENG
+		name = "Catherine"
+		dynasty = "Howard"
+		birth_date = 1523.1.1
+		death_date = 1541.11.23
+		female = yes
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1543.7.12 = {
+	queen = {
+		country_of_origin = ENG
+		name = "Catherine"
+		dynasty = "Parr"
+		birth_date = 1512.1.1
+		death_date = 1548.9.5
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+
+1547.1.28 = {
+	monarch = {
+		name = "Edward VI"
+		dynasty = "Tudor"
+		birth_date = 1537.10.12
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+
+1547.1.28 = {
+	heir = {
+		name = "Mary"
+		monarch_name = "Mary I"
+		dynasty = "Tudor"
+		birth_date = 1516.2.18
+		death_date = 1558.11.17
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 0
+		female = yes
+	}
+}
+1549.1.1 = { decision = act_of_uniformity }
+
+#1550.1.1 = { decision = agricultural_cultivation }
+
+1552.1.1 = { leader = {	name = "Hugh Willoughby"            	type = explorer	rank = 7	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1554.10.19 } }
+
+1552.1.1 = { leader = {	name = "Richard Chancellor"            	type = explorer	rank = 10	fire = 1	shock = 1	manuever = 3	siege = 0	death_date = 1556.7.28 } }
+
+1553.1.1 = { leader = {	name = "Martin Frobisher"             	type = explorer	rank = 9	fire = 5	shock = 2	manuever = 4	siege = 0	death_date = 1594.11.22 } }
+
+1553.7.6 = {
+	monarch = {
+		name = "Jane I"
+		dynasty = "Grey"
+		birth_date = 1536.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+		female = yes
+	}
+	queen = { #Prince-Consort
+		country_of_origin = ENG
+		name = "Guildford"
+		dynasty = "Dudley"
+		birth_date = 1535.1.1
+		death_date = 1554.2.12
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1553.7.6 = { # Catherine Grey, Jane's sister and heir
+	heir = {
+		name = "Catherine"
+		monarch_name = "Catherine I"
+		dynasty = "Grey"
+		birth_date = 1540.8.25
+		death_date = 1568.1.26
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+		female = yes
+	}
+}
+
+1553.7.19 = {
+	monarch = {
+		name = "Mary I"
+		dynasty = "Tudor"
+		birth_date = 1516.2.18
+		adm = 1
+		dip = 1
+		mil = 0
+		female = yes
+	}
+}
+
+1553.7.19 = {
+	heir = {
+		name = "Elizabeth"
+		monarch_name = "Elizabeth I"
+		dynasty = "Tudor"
+		birth_date = 1533.9.7
+		death_date = 1603.3.24
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 5
+		female = yes
+	}
+}
+1553.7.19 = { religion = catholic } # Reinstate Papal power over Church of England
+
+1556.1.1 = { leader = {	name = "William Fitzwilliam"           	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1599.2.6 } }
+
+1558.1.1 = { leader = {	name = "Edward Clinton"               	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1585.1.16 } }
+
+1558.11.17 = {
+	monarch = {
+		name = "Elizabeth I"
+		dynasty = "Tudor"
+		birth_date = 1533.9.7
+		death_date = 1620.3.26
+		adm = 6
+		dip = 6
+		mil = 5
+		female = yes
+	}
+}
+
+1558.11.17 = { religion = protestant }
+
+1559.12.17 ={
+	heir = {
+		name = "Henry"
+		monarch_name = "Henry IX"
+		dynasty = "Tudor"
+		birth_date = 1559.12.17
+		death_date = 1620.3.26
+		claim = 60
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+#1525.1.1 = { decision = judiciary_act }
+#1534.1.1 = { decision = suffragan_bishop_act }
+
+1580.1.1 = { decision = enlist_privateers }
+
+1603.3.24 ={
+	monarch = {
+		name = "Henry IX"
+		dynasty = "Tudor"
+		birth_date = 1559.12.17
+		death_date = 1620.3.26
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = benevolent_personality
+	
+	heir = {
+		name = "Arthur"
+		monarch_name = "Arthur I"
+		dynasty = "Tudor"
+		birth_date = 1585.6.3
+		death_date = 1632.10.11
+		claim = 75
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1620.3.26={
+	monarch = {
+		name = "Arthur I"
+		dynasty = "Tudor"
+		birth_date = 1585.6.3
+		death_date = 1632.10.11
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = careful_personality
+	
+	queen = {
+		country_of_origin = SCO
+		name = "Mary"
+		dynasty = "Stewart"
+		birth_date = 1590.1.1
+		death_date = 1636.11.12
+		female = yes
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+	
+	heir = {
+		name = "Arthur Augustus"
+		monarch_name = "Arthur II Augustus"
+		dynasty = "Tudor"
+		birth_date = 1607.3.2
+		death_date = 1640.7.24
+		claim = 80
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+}
+
+1632.10.11={
+	monarch = {
+		name = "Arthur II Augustus"
+		dynasty = "Tudor"
+		death_date = 1640.7.24
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = expansionist_personality
+	
+	#Older, military-minded sons of Arthur I
+	
+	leader = {	#Albert Adolphus "the Navigator", the Duke of Gloucester and Alberta. Colony of "Alberta"
+		name = "Albert Adolphus Tudor" 
+		type = explorer
+		rank = 14
+		fire = 4
+		shock = 3
+		manuever = 5
+		siege = 0
+		trait = naval_showman_personality
+		death_date = 1699.6.7
+	} 
+	
+	leader = {	#Lionel Cornelius, the Duke of York
+		name = "Lionel Cornelius Tudor" 
+		type = general
+		rank = 14
+		fire = 4
+		shock = 3
+		manuever = 2
+		siege = 3
+		trait = master_of_arms_personality
+		death_date = 1647.5.16
+	} 
+	
+	leader = {	#Gawain Heraclitus, the Duke of Richmond and Brittany
+		name = "Gawain Heraclitus Tudor" 
+		type = general
+		rank = 14
+		fire = 3
+		shock = 5
+		manuever = 3
+		siege = 1
+		trait = inspirational_leader_general_personality
+		death_date = 1679.1.16
+	} 
+	
+}
+
+1640.4.1={
+	heir = {
+		name = "Edward Augustus"
+		monarch_name = "Edward VII Augustus"
+		dynasty = "Tudor"
+		birth_date = 1640.4.1
+		death_date = 1645.2.14
+		claim = 80
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = naive_personality
+}
+
+1640.7.24={
+	monarch = {
+		name = "Edward VII Augustus"
+		dynasty = "Tudor"
+		death_date = 1640.7.24
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	
+	heir = { #The future Elizabeth II (canon has Elizabeth III, there must be an Elizabeth II somewhere)
+		name = "Elizabeth Augusta"
+		monarch_name = "Elizabeth II Augusta"
+		dynasty = "Tudor"
+		birth_date = 1637.4.21
+		death_date = 1709.6.15
+		claim = 80
+		adm = 5
+		dip = 5
+		mil = 2
+		female = yes
+	}
+}
+
+1640.7.25 = { #Duke of York takes Charge
+	monarch = {
+		name = "Lionel Cornelius Tudor"
+		adm = 2
+		dip = 2
+		mil = 6
+		regent = yes
+	}
+	add_ruler_personality = inspiring_leader_personality
+	
+
+	heir = {
+		name = "Edward Augustus"
+		monarch_name = "Edward VII Augustus"
+		dynasty = "Tudor"
+		birth_date = 1640.4.1
+		death_date = 1645.2.14
+		claim = 80
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_heir_personality = naive_personality
+}
+
+1644.9.14 = { #Duke of Cumberland schemes with Parliament, youngest son of Arthur I
+	monarch = {
+		name = "Alexander Titus Tudor"
+		adm = 5
+		dip = 3
+		mil = 0
+		regent = yes
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = intricate_web_weaver_personality
+	
+	heir = {
+		name = "Edward Augustus"
+		monarch_name = "Edward VII Augustus"
+		dynasty = "Tudor"
+		birth_date = 1640.4.1
+		death_date = 1645.2.14
+		claim = 80
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+#Coup of the Tower King Cumberland, another "nephew-killer", as with "Britannian" tradition
+1645.2.14 = { #Basically here so that "Alec la Britannia" (which is a rare name for English monarchy) doesn't seem to be an odd and random name
+	monarch = {
+		name = "Alexander I Titus"
+		dynasty = "Tudor"
+		birth_date = 1618.2.14
+		adm = 5
+		dip = 3
+		mil = 0
+	}
+	add_ruler_personality = malevolent_personality
+	add_ruler_personality = intricate_web_weaver_personality
+}
+
+#Richard Claudius (Richard III + Claudius from "Hamlet", ironic names), the Duke of Hereford and older brother of Alexander
+#Returns to put the rightfuly heir (and niece) Elizabeth II as Queen
+1646.1.1 = {
+	monarch = {
+		name = "Richard Claudius Tudor"
+		adm = 6
+		dip = 4
+		mil = 3
+		regent = yes
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = industrious_personality
+	
+	heir = { #The future Elizabeth II (canon has Elizabeth III, there must be an Elizabeth II somewhere)
+		name = "Elizabeth Augusta"
+		monarch_name = "Elizabeth II Augusta"
+		dynasty = "Tudor"
+		birth_date = 1637.4.21
+		death_date = 1709.6.15
+		claim = 80
+		adm = 5
+		dip = 5
+		mil = 2
+		female = yes
+	}
+	
+}
+
+1652.4.21 = {
+	monarch = {
+		name = "Elizabeth II Augusta"
+		dynasty = "Tudor"
+		birth_date = 1637.4.21
+		death_date = 1709.6.15
+		adm = 5
+		dip = 5
+		mil = 2
+		female = yes
+	}
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = benevolent_personality
+	
+	queen = { #Prince-Consort, the Duke of Anjou (eldest son of Richard Claudius, Duke of Hereford), Arthur Aurelius
+		country_of_origin = ENG
+		name = "Arthur Aurelius"
+		dynasty = "Tudor"
+		birth_date = 1643.10.26
+		death_date = 1710.8.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}
+1651.12.30 = { decision = establish_british_merchant_navy }
+
+
+#William III and Mary II of this timeline
+1658.3.17 = {
+	monarch = {
+		name = "Arthur III Aurelius"
+		dynasty = "Tudor"
+		birth_date = 1643.10.26
+		death_date = 1710.8.11
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = free_thinker_personality
+	
+	queen = { #Willingly shared power with husband. Convinced Parliament to change Prince-Consort to King after birth of heir
+		country_of_origin = ENG
+		name = "Arthur Aurelius"
+		dynasty = "Tudor"
+		birth_date = 1637.4.21
+		death_date = 1709.6.15
+		adm = 6
+		dip = 5
+		mil = 2
+
+	}
+	
+	heir = { #Edward the Young Lion, Prince of Wales and Aquitaine, another warrior "Black Prince", named after his uncle
+		name = "Edward Augustus"
+		monarch_name = "Edward VIII Augustus"
+		dynasty = "Tudor"
+		birth_date = 1658.3.17
+		death_date = 1698.7.23
+		claim = 100
+		adm = 3
+		dip = 4
+		mil = 6
+	}
+	add_heir_personality = tactical_genius_personality
+	
+	change_government = despotic_monarchy
+}
+
+#1660.5.29 = { decision = tenures_abolition_act }
+
+1665.3.17 = {
+	leader = {	#Edward Augustus the Young Lion
+		name = "Edward Augustus Tudor" 
+		type = general
+		rank = 14
+		fire = 4
+		shock = 5
+		manuever = 5
+		siege = 4
+		trait = born_to_the_saddle_personality
+		death_date = 1698.7.23
+	} 
+}
+
+1673.1.1 = { decision = test_act }
+
+1698.7.23 = {
+	heir = { #son of the Young lion, Duke of Hereford 
+		name = "Edward Frederick"
+		monarch_name = "Edward VIII Frederick"
+		dynasty = "Tudor"
+		birth_date = 1694.9.3
+		death_date = 1710.11.7
+		claim = 100
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+	add_heir_personality = drunkard_personality
+}
+
+#1700.1.1 = { decision = agricultural_cultivation }
+#1702.3.8 = { decision = establish_the_wooden_wall }
+
+1710.11.7 = {
+	monarch = {
+		name = "Edward VIII Frederick"
+		dynasty = "Tudor"
+		birth_date = 1694.9.3
+		death_date = 1710.11.7
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+	
+	heir = { #second son of the Young Lion, the Duke of Lancaster
+		name = "Arthur Constantine"
+		monarch_name = "Arthur IV Constantine"
+		dynasty = "Tudor"
+		birth_date = 1696.4.10
+		death_date = 1745.3.1
+		claim = 100
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+
+}
+
+#This is basically here to provide a line of pretenders a la James II style IF you want to make
+# Napoleon II marry a princess of this line to rule as a rump "King of England" after the French kick his dad out
+# can delete if it's not a direction you want to take
+
+1710.12.24 = { #another bloody coup, another nephew-killer, Christmas and religious holidays are just bloody for Britannia
+	monarch = { #the Duke of Kent
+		name = "Arthur IV Tiberius"
+		dynasty = "Tudor"
+		birth_date = 1662.1.27
+		death_date = 1730.6.31 #As usual for English pretenders, in France
+		adm = 3
+		dip = 5
+		mil = 3 #decent stats, otherwise how would he get the throne?
+	}
+	add_ruler_personality = secretive_personality
+	add_ruler_personality = strict_personality
+
+}
+
+1717.10.25 = { #son of the Young Lion returns
+	monarch = {
+		name = "Arthur V Constantine"
+		dynasty = "Tudor"
+		birth_date = 1696.4.10
+		death_date = 1745.3.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+1720.8.29 = {
+	heir = { 
+		name = "Frederick Tiberius"
+		monarch_name = "Frederick I Tiberius"
+		dynasty = "Tudor"
+		birth_date = 1720.8.29
+		death_date = 1744.6.28 #death made Arthur V die faster
+		claim = 100
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1725.1.1 = { decision = acknowledge_britanna_rules_the_waves }
+
+1745.9.19 = {
+	monarch = { #The canon King who suppressed Washington's rebellion and survived through the "Age of Revolution"
+		name = "Henry X Constantine"
+		dynasty = "Tudor"
+		birth_date = 1725.11.17
+		death_date = 1792.5.6
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = expansionist_personality
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = careful_personality
+	
+	
+	heir = { #shit hits the fan under him
+		name = "Henry Augustus"
+		monarch_name = "Henry XI Augustus"
+		dynasty = "Tudor"
+		birth_date = 1744.7.1 #days after his uncle, Frederick Tiberius dies
+		death_date = 1799.12.25
+		claim = 100
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+	add_heir_personality = drunkard_personality
+	add_heir_personality = loose_lips_personality
+}
+
+
+1769.1.1 = { decision = sunday_school }
+
+1792.5.6 = {
+	monarch = { #Squandered the treasury, made the navy basically shit, alienated other Continental rulers, failed to stop the First Republic
+		name = "Henry XI Augustus"
+		dynasty = "Tudor"
+		birth_date = 1744.7.1
+		death_date = 1799.12.25
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+	
+	
+	heir = { #second son, tried very hard to go against Napoleon
+		name = "Alexander Tiberius"
+		monarch_name = "Alexander II Tiberius"
+		dynasty = "Tudor"
+		birth_date = 1771.5.24
+		death_date = 1804.6.12
+		claim = 100
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+	add_heir_personality = fierce_negotiator_personality
+	add_heir_personality = scholar_personality
+}
+
+1796.1.1 = { #Royal Navy in shambles
+	leader = {	
+		name = "Horatio Nelson"
+		type = admiral
+		rank = 7
+		fire = 6
+		shock = 6
+		manuever = 6
+		siege = 0
+		death_date = 1805.10.21
+	}
+	
+	leader = {	#The Duke of Britannia, Ricardo, descended from Eadgar AEthling, the First Earl of Britannia
+		name = "Richard Wessex"
+		type = general
+		rank = 7
+		fire = 3
+		shock = 3
+		manuever = 4
+		siege = 3
+	}
+	
+	leader = {	#third son of Henry XI Augustus
+		name = "Frederick Plutarch Tudor"
+		type = general
+		rank = 0
+		fire = 4
+		shock = 3
+		manuever = 2
+		siege = 3
+	}
+	
+}
+
+#1799.1.1 = { decision = combination_act }
+
+1799.12.25 = {
+	monarch = {
+		name = "Alexander II Tiberius"
+		dynasty = "Tudor"
+		birth_date = 1771.5.24
+		death_date = 1804.6.12
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+
+1804.6.12 = {
+	monarch = { #third son of Henry XI Augustus
+		name = "Frederick I Plutarch"
+		dynasty = "Tudor"
+		birth_date = 1774.5.24
+		death_date = 1805.8.30 #death in battle against Napoleon, paved way for Trafalgar
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = bold_fighter_personality
+}
+
+1805.8.30 = {
+	monarch = { #third son of Henry X Constantine, the Duke of York and Toulouse, Parliament overruled Princess Elizabeth's succession
+		name = "Edmund I Vitus"
+		dynasty = "Tudor"
+		birth_date = 1752.1.3
+		death_date = 1807.1.3 #death by London uprising
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = calm_personality
+}
+
+1807.1.1 = { decision = abolish_slavery_act }
+
+1807.1.3 = {
+	monarch = { #daughter of Henry XI Augustus the Shitty, sister of Alexander II and Frederick I
+		name = "Elizabeth III Edwardina"
+		dynasty = "Tudor"
+		birth_date = 1769.7.4
+		death_date = 1813.8.24 #death by London uprising
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+	add_ruler_personality = benevolent_personality
+	add_ruler_personality = well_advised_personality
+}
+
+1812.1.1 = { #pretty sure Ricardo/Richard didn't get the throne until Elizabeth III dies in the New World
+	monarch = {
+		name = "Richard IV"
+		dynasty = "von Britannia"
+		birth_date = 1776.7.4
+		death_date = 1825.3.1 
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = expansionist_personality
+	
+	change_government = britannian_monarchy
+	
+	heir = { #do you have any attachement to the name "James"? If yes, can just delete this one
+		name = "Edward Albert"
+		monarch_name = "Edward X Albert"
+		dynasty = "von Britannia" #no polygamy just yet
+		birth_date = 1797.4.26
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}
+
+
+
+#1814.1.1 = { 
+#	heir = {
+#		name = "James"
+#		monarch_name = "James I"
+#		dynasty = "Vi Britannia"
+#		birth_date = 1814.1.1
+#		claim = 95
+#		adm = 5
+#		dip = 4
+#		mil = 3
+#	}
+#}

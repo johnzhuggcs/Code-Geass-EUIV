@@ -1,0 +1,78 @@
+//Changelogs
+
+History:
+HBE:
+- added history of Holy Britannian Empire so that it lines up with England before the POD of Henry IX
+- added history of HBE after Henry IX, with names and numerals that are in custom to British history
+	- added two "Alexander" so that it would make sense to have "Alec la Britannia" later
+- changed the name "Ricardo Von Britannia" to "Richard IV von Britannia", Ricardo = Richard
+- changed the ascension year of Richard IV to 1812 (should be 1813 based on wiki), he doesn't
+	ascend the throne until Elizabeth III dies.
+- changed age of Richard IV to be in his 30s when he ascends the throne 
+	probably makes sense that Elizabeth III be at least in her 30s and 40s to die this easily, Ricardo should be around the same age
+- changed heir at 1812 to be born earlier so there's no danger of HBE switching dynasty
+- changed heir at 1812's dynasty to von Britannia as it's unlikely the system of polygamy was established this early by Ricardo
+- changed heir at 1812's name to Edward, very small immersion change, but if you have an attachment to "James" you can change it back
+
+HDS:
+- added history of first Emperor (during the Five Dynasties and Ten Countries period, if you give an average reign time of around 14 yrs due to disease, fuckups, assasinations, you can fit in 88 Emperors by the time the series start)
+	Taizu/Gaozu is the "Temple Name" of almost all first emperors of Chinese dynasties as they pretty much mean "Great Progenitor"
+- added placeholder Emperors (a few of the Emperors would actually be posthmously reverred by the first Emperor, such as his father, grandfather etc...)
+- changed dynasty name to "Jiang", as noted in the series
+
+Countries:
+HBE:
+- added proper monarch names and chances (Henry, Edward, Arthur to 100)
+- added proper monarch numerals, e.g. Henry #11 so that the next Henry will be Henry XII
+- outlandish names such as Lelouch and Schneizel have been kept with a chance of 1. Their ascension should probably be strictly event-based
+	very likely that Charles is just an edgy dude who likes to give weird last-names (Nunally, Lelouch etc...) as his kid's first names
+- Scotty's chance has been elevated to 50 percent to balance out the 100 percents of Edward/Henry/Arthur etc...
+- added more leader-names from the series, such as Orange-kun
+	von Stadtfeld, Farnese, Calares, Steiner, Soresi (Renya of Darkness had Soresi as a powerful noble, even though it ain't canon I still think that family should be relevant)
+	Nunally, Schneizel (well based on a British and later American custom of giving family names as first names, highly likely those names had these origins)
+	Hardy cuz Hardy-Weinberg principle :P
+- added Army names with a line-space after the originals
+	added 3 more knight orders based on the Archangels
+	added province based Hussars, Dragoons, Grenadiers regiments
+	added Household regiment/guards
+	Knights of the Round Table (I'm thinking maybe have one unit per each Knight for pre-Knightmare-era warfare?)
+- deleted some names such as "Army of Prominent Veterans", or mercenaries...
+	Glinda Knights and Glaston Knights deleted, explanation in the country file, basically they appeared specifically BECAUSE of canon and had a limited number of people
+- added some fleet names
+	commands based on locations/coastlines
+	Nelson's Own, revenge fleet against France?
+	
+HDS: (ideally they should be replicated for Chinese Federation too)
+- added Chinese personal names as monarch names (as with Vanilla)
+- you guys originally had posthmous names which are basically epiphets, they are more or less a "taboo" to be repeated mroe than once in the same dynasty
+	actually thinking of writing events that can retroactively bestow posthomous names, more on that in the suggestions
+- removed female names, cuz there's like 1 Empress regnant in Chinese history
+- removed the name Tianzi (Tianzi basically means Emperor/Empress, canon just uses it as a title for her)
+- added proper last names, increased the chance of Li (Xingke) appearing. Jiang as the ruling dynasty would have a lot of leaders too
+- added ship names based on real-life Beiyang fleet of the Qing dynasty and ancient ship names
+	CMS prefix should stand for "Celestial Majesty's Ship"
+- added army names based on elitie Imperial guard units
+	some names kept them in Chinese because they sound very weird when translated (Tianxiong = Heavenly Heroes...)
+- deleted names such as "Army of Prominent Veterans"
+
+Governments:
+- lines 83 for Chinese Federation, it should maintain dynasty. In China, the country-name (Han, Ming etc...) is tied to the ruling house's name
+	that should be the same for the vanilla Celestial Empire government as well, but apparently Paradox has been ignoring it
+	
+Events:
+- added a rudimentary event chain for Tianzi's ascension, name-space chinese_han.10 - chinese_han.13, in case you guys want to move it into the chinese_fed name space
+- Year must be 2005, heir must be older than 20
+	Old Emperor is dying, aristocratic factions getting more power and used the "Equal Wealth" slogan to accumulate more wealth
+	Crown Prince schemes with his younger brother (who pretends to be chummy with the aristocrats)
+	leads a coup with the Eunuchs, baiting the aristocrats to come with their armies.
+	Emperor can thus choose to acknowledge the Crown Prince's effort and abdicate to him, or send for the aristocrats to capture his eldest son
+	
+	If the first choice, the Crown Prince becomes the Emperor with a massive boost to Eunuch faction (I know this nation doesn't use the faction system, more on that in suggestions).
+	
+	A few years (2008) later a second event (MTTH 6 months) happens where the Emperor is infertille with only a daughter (Tianzi/Lihua), so his younger brother *should* be the new heir
+	Well the eunuchs try to convince him before he dies to have his brother killed and his daughter the Crown Princess (unprecendated)
+	
+	Two choices: one, Lihua becomes Empress, major stability hit and rise in corruption
+				 two, Emperor dies, younger brother becomes new Emperor with great stats.
+		
+	

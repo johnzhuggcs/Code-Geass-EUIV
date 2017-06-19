@@ -1,0 +1,102 @@
+government = celestial_empire
+mercantilism = 25
+technology_group = chinese
+religion = confucianism
+primary_culture = chinese_c
+capital = 1836 #Louyang, The Forbidden City
+fixed_capital = 1836
+national_focus = MIL
+
+939.6.7 = {
+	monarch = {
+		name = "Taizu"
+		dynasty = "Jiang"
+        birth_date = 905.3.27
+        death_date = 963.8.4
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = architectural_visionary_personality
+}
+
+963.8.4 = {
+	monarch = {
+		name = "74 Previous Emperors"
+		dynasty = "Jiang"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1650.1.1 = {
+	add_opinion = {
+		modifier = mutual_trade_op
+		who = RUS
+	}
+	add_country_modifier = {
+		name = mutual_trade_1_m
+		duration = -1
+	}
+}
+
+1771.1.1 = {
+	monarch = {
+		name = "Chengjin"
+		dynasty = "Jiang"
+        birth_date = 1749.12.25
+        death_date = 1816.6.25
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+	add_ruler_personality = entrepreneur_personality
+	add_ruler_personality = industrious_personality
+	add_ruler_personality = architectural_visionary_personality
+}
+
+1810.4.1 = {
+    queen = {
+        country_of_origin = KOR
+        name = "Deog Issneun"
+        dynasty = "Baeuja"
+        birth_date = 1791.12.12
+        death_date = 1841.12.17
+        female = yes
+        adm = 2
+        dip = 3
+        mil = 3
+    }
+    add_queen_personality = righteous_personality
+}
+
+1774.8.20 = {
+	heir = {
+		name = "Zhishi"
+		monarch_name = "Zhishi"
+		dynasty = "Jiang"
+		birth_date = 1774.8.20
+		death_date = 1843.4.9
+		claim = 95
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+	add_heir_personality = free_thinker_personality
+}
+
+1816.6.25 = {
+	monarch = {
+		monarch = "Zhishi"
+		dynasty = "Jiang"
+		birth_date = 1774.8.20
+		death_date = 1843.4.9
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+	add_heir_personality = free_thinker_personality
+}
