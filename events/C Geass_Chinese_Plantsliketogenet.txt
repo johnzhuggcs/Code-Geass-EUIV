@@ -1,7 +1,8 @@
 namespace = chinese_han
 
 # Crown Prince and Eunuch
-country_event = {
+# Your heir tries a coup with the help of eunuchs
+country_event = { 
 	id = chinese_han.10
 	title = "unhappyPrince.1.t"
 	desc = "unhappyPrince.1.d"
@@ -17,6 +18,7 @@ country_event = {
 			is_year = 2005
 			heir_age = 20
 			heir_has_ruler_dynasty = yes
+			has_female_heir = no
 			NOT = {
 				faction_in_power = enuchs
 			}
@@ -34,7 +36,7 @@ country_event = {
 		months = 12
 	}
 	
-	option = {
+	option = { #he succeeds
 		name = "unhappyPrince.1.a"
 		kill_ruler = yes
 		add_heir_personality = cruel_personality
@@ -52,7 +54,7 @@ country_event = {
 		}
 	}
 	
-	option = {
+	option = { #the aristrocrats are brought in with their army and the Crown Prince is exiled/imprisoned
 		name = "unhappyPrince.1.b"
 		exile_heir_as = "Imprisoned"
 		country_event = {
@@ -64,7 +66,7 @@ country_event = {
 		
 }
 
-country_event = {
+country_event = { #Aristocrat succeeded, persuaded you to execute the Crown Prince, but brings a better heir
 	id = chinese_han.11
 	title = "unhappyPrince.2.t"
 	desc = "unhappyPrince.2.d"
@@ -116,7 +118,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #The Crown Prince succeeded and becomes the Emperor
 	id = chinese_han.12
 	title = "unhappyPrince.3.t"
 	desc = "unhappyPrince.3.d"
@@ -149,7 +151,7 @@ country_event = {
 }
 
 # Jiang Lihua/Tianzi
-country_event = {
+country_event = { #You are pretty much infertile, eunuchs are trying to persuade you to execute your loyal younger brother to allow your daughter/Tianzi to become heir. Executing the eunuch will allow the younger brother to become the new ruler instead.
 	id = chinese_han.13
 	title = "tianzi.1.t"
 	desc = "tianzi.1.d"
@@ -180,7 +182,7 @@ country_event = {
 	
 	option = {
 		name = "tianzi.1.a"
-		define_ruler = {
+		define_heir = {
 			name = "Lihua"
 			female = yes
 			dynasty = ROOT
@@ -190,11 +192,16 @@ country_event = {
 			dip = 3
 			mil = 0
 		}
-		add_ruler_personality = naive_personality
-		add_ruler_personality = benevolent_personality
+		
 		add_stability = -3
 		add_corruption = 60
 		set_country_flag = enuchs_further_power
+		add_ruler_personality = naive_personality
+		add_ruler_personality = benevolent_personality
+		country_event = {
+			id = chinese_han.14
+			days = 1
+		}
 	}
 	
 	option = {
@@ -209,6 +216,40 @@ country_event = {
 			dip = 5
 			mil = 6
 		}
+	}
+}
+
+country_event = { #The Crown Prince succeeded and becomes the Emperor
+	id = chinese_han.14
+	title = "tianzi.2.t"
+	desc = "tianzi.2.d"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = CHF
+			tag = HDS
+		}
+		AND = {
+			is_year = 2008
+			NOT = {
+				has_country_flag = unhappy_prince_killed
+			}
+			
+			has_country_flag = enuchs_supported_coup
+			has_country_flag = enuchs_further_power
+		}
+		
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "tianzi.2.a"
+		kill_ruler
+		
+		
 	}
 }
 

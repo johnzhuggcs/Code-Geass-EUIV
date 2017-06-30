@@ -44,27 +44,97 @@ historical_units = {
 
 monarch_names = {
 	"Charles #0" = 70
+	"Charles #0 Marius" = 70
+	"Charles #0 Titus" = 70
 	"Alexander #2" = 70
+	"Alexander #2 Cornelius" = 70 
+	"Frederick #1" = 50
+	"Frederick #1 Plutarch" = 50
+	"Frederick #1 Augustus" = 50
+	"Frederick #1 Achilles" = 50
 	"Edward #9" = 100
+	"Edward #9 Augustus" = 100
+	"Edward #9 Aurelius" = 100
+	"Edward #9 Amadeus" = 100
 	"Henry #11" = 100
-	"Lelouch #0" = 20
+	"Henry #11 Augustus" = 100
+	"Henry #11 Tiberius" = 100
+	"Lelouch #0" = 10
+	"Lelouch #0 Augustus" = 10
 	"John #1" = 40
-	"Arthur #5" = 1
-	"Horatio #0" = 0
+	"John #1 Titus" = 40
+	"John #1 Siegmund" = 40
+	"Arthur #5" = 80
+	"Arthur #5 Aurelius" = 80
+	"Arthur #5 Augustus" = 80
+	"Godfrey #0" = 10
+	"Godfrey #0 Titus" = 10
+	"Albert #0 Adolphus" = 1
+	
 	"Odysseus #0" = 1
 	"Brutus #0" = 1
 	"Scotty #0" = 50
 	"Clovis #0" = 1
+	"Clovis #0 Valentine" = 1
 	"Richard #4" = 100
 	"Victor #0 Vitus" = 10 #V.V ?
 	"Schneizel #0" = 1
 	"William #2" = 60
+	"William #2 Hercules" = 50
+	
+	"Achilles Hyacinth" = 0
+	"Algernon" = 0
+	"Amadeus" = 0
+	"Andrew" = 0 
+	"Archibald" = 0
+	"Bartholomew" = 0
+	"Bartholomew Lewis" = 0
+	"Bartimaeus Wenceslaus"
+	"Beauregard Bartimaeus" = 0
+	"Bertrand" = 0
+	"Bismarck" = 0
+	"Chester" = 0
+	"Edmund" = 0
+	"Edmund Augustus" = 0
+	"Edward-Henry" = 0
+	"Edwin" = 0
+	"Edwin Remus" = 0
+	"Eisenwulf Achilles" = 0
+	"Eugenio" = 0
+	"George Beufort" = 0
+	"George William" = 0
+	"George" = 0
+	"Gideon Ellard" = 0 
+	"Gilbert" = 0
+	"Gilbert George William" = 0
+	"Godfrey Eugenio Titus" = 0
+	"Godfrey Henry" = 0
+	"Graham" = 0
+	"Graham Algernon" = 0
+	"Horatio #0" = 0
+	"Jeremiah" = 0
+	"Joseph James" = 0
+	"Julius" = 0
+	"Kewell" = 0
+	"Kewell Manuel" = 0
+	"Leonhardt" = 0
+	"Lucius" = 0
+	"Osric Nestor" = 0
+	"Raphael Frederich" = 0
+	"Reuben Sherrinford" = 0
+	"Russel" = 0
+	"Thomas Solomon" = 0
+	"Thomas" = 0
+	
 	
 	"Nunnally #0" = -1
 	"Cornelia #0" = -1
+	"Cornelia #0 Augusta" = -1
 	"Euphemia #0" = -1
 	"Marianne #0" = -1
-	"Elizabeth #0" = -1
+	"Elizabeth #3" = -1
+	"Elizabeth #3 Augusta" = -1
+	"Mary #1 Henrietta" = -1
 	"Jasmine #0" = -1
 	"Boudica #0" = -1
 	"Guinevere #0" = -1
@@ -75,7 +145,7 @@ monarch_names = {
 leader_names = {
 	"li Britannia" Waldstein "Hardy" "Hardy" "von Weinberg" "von Weinberg" "von Weinberg" "von Weinberg" Ernst Alstreim
 	Enneagram Bradley Carles Kruszewski Seymour Steiner Phalanx Manfredi Farnese Farnese
-	Ashford Ashford Ashford Ashford Patton "de Vere" Dudley Russels 
+	Ashford Ashford Ashford Ashford Patton Patton Patton Patton Grant Grant Eisenhower "de Vere" Dudley Russels 
 	"von Stadtfeld" "von Stadtfeld" "von Stadtfeld"
 	"von Gottwald" "von Gottwald" "von Gottwald" "von Gottwald" "von Gottwald" "von Gottwald"
 	Zevon Chamberlain Barbaros Victoria "mel Britannia" Darlton
@@ -87,9 +157,9 @@ leader_names = {
 }
 
 ship_names = {
-	"Britannian Ship of $PROVINCE$" "Royal Flag Ship of $PROVINCE$" "Ship of $PROVINCE$"
-	"Aggressive Ship of $PROVINCE$" "Defensive Ship of $PROVINCE$"  "HMS Belfast"
-	"Britannian Ingenuity from $PROVINCE$" "Manager of Order from $PROVINCE$"
+
+	"HMS Horatio Nelson" "HMS Elizabeth I" "HMS Arthur III" "HMS St. Darwin"
+	"HMS Belfast"
 	"HMS Resolution" "HMS Conqueror" "HMS Endeavour" "HMS Monmouth" "HMS Briston" "HMS Norfolk"
 	"HMS Edinburgh" "HMS Sutherland" "HMS Pembroke" "HMS Oxfordshire" "HMS Londinium" "HMS Cardiff"
 	"HMS Northumberland" "HMS Suffolk" "HMS Darwin" "HMS Fife" "HMS Glamorgan" "HMS Anglesey" "HMS Drake"
@@ -98,18 +168,22 @@ ship_names = {
 	"HMS Virgil" "HMS Albion" "HMS Alban" "HMS Athrwys" "HMS Pendragon" "HMS Invincible" "HMS Dominion"
 	
 	
-	"HMS Horatio Nelson" "HMS Elizabeth I" "HMS Arthur III"
+	
+	
+	"HMS $PROVINCE$"
+	"Britannian Ship of $PROVINCE$" "Royal Flag Ship of $PROVINCE$" "Ship of $PROVINCE$"
+	"Defensive Ship of $PROVINCE$" 
+	"Britannian Ingenuity from $PROVINCE$" "Manager of Order from $PROVINCE$"	
 }
 
 army_names = { #Glaston Knights were specifically for the sons of Darlton. Glinda Knights were a new task force made by Marybelle
-	"Imperial Knights Army" "Knights Regiment" "Army of $PROVINCE$" "Regiment of $PROVINCE$"
+	"Imperial Knights Army" "Knights Regiment" 
 	"Imperial Household Hussars" "Imperial Household Dragoons" "Knights of the Round Table" "PLUTON Regiment"
 	"Knights of St. Uriel" "Knights of St. Gabriel"
 	"Knights of St. Michael" "Knights of St. Raphael"  
 	
 	"Knights of St. Raguel" "Knights of St. Phanuel" "Knights of St. Remiel" "Knights of St. Sariel"
-	"$PROVINCE$ Dragoons" "$PROVINCE$ Hussars" "$PROVINCE$ Grenadiers"
-	"Knights of $PROVINCE$"
+	
 	
 
 	

@@ -1,5 +1,26 @@
 //Changelogs
 
+June 30/17
+History
+- fixed error where prescripted generals Ricardo von Britannia (Richard Wessex) and Frederick I Plutarch still existing by the start of 1812 bookmark
+
+Events
+HDS:
+- added new event so that Lihua will become benelovent and naive instead of the previous emperor gaining the personalities
+- fixed some small localization errors for event descriptions in the Crown Prince and Eunuch event chain
+- added additional checks so that the your heir must be male (Tianzi's father) in order to fire the Crown Prince and Eunuch event chain
+
+Country
+HBE:
+- added several leader names
+- adjusted orders of Army names so that the proper one appear first
+- deleted Dragoons of $PROVINCE and others, as each regiment is already province based, doesn't make sense for the Armies to be based on specific provinces. More likely to be named after specific regions
+
+HDS:
+- added several leader names
+
+
+June 18/17
 History:
 HBE:
 - added history of Holy Britannian Empire so that it lines up with England before the POD of Henry IX

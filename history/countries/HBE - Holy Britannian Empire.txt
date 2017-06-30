@@ -720,21 +720,6 @@ national_focus = MIL
 		mil = 6
 		regent = yes
 	}
-	add_ruler_personality = inspiring_leader_personality
-	
-
-	heir = {
-		name = "Edward Augustus"
-		monarch_name = "Edward VII Augustus"
-		dynasty = "Tudor"
-		birth_date = 1640.4.1
-		death_date = 1645.2.14
-		claim = 80
-		adm = 3
-		dip = 3
-		mil = 3
-	}
-	add_heir_personality = naive_personality
 }
 
 1644.9.14 = { #Duke of Cumberland schemes with Parliament, youngest son of Arthur I
@@ -744,20 +729,6 @@ national_focus = MIL
 		dip = 3
 		mil = 0
 		regent = yes
-	}
-	add_ruler_personality = malevolent_personality
-	add_ruler_personality = intricate_web_weaver_personality
-	
-	heir = {
-		name = "Edward Augustus"
-		monarch_name = "Edward VII Augustus"
-		dynasty = "Tudor"
-		birth_date = 1640.4.1
-		death_date = 1645.2.14
-		claim = 80
-		adm = 3
-		dip = 3
-		mil = 3
 	}
 }
 
@@ -785,8 +756,6 @@ national_focus = MIL
 		mil = 3
 		regent = yes
 	}
-	add_ruler_personality = midas_touched_personality
-	add_ruler_personality = industrious_personality
 	
 	heir = { #The future Elizabeth II (canon has Elizabeth III, there must be an Elizabeth II somewhere)
 		name = "Elizabeth Augusta"
@@ -820,7 +789,7 @@ national_focus = MIL
 	
 	queen = { #Prince-Consort, the Duke of Anjou (eldest son of Richard Claudius, Duke of Hereford), Arthur Aurelius
 		country_of_origin = ENG
-		name = "Arthur Aurelius"
+		name = "Arthur III Aurelius"
 		dynasty = "Tudor"
 		birth_date = 1643.10.26
 		death_date = 1710.8.11
@@ -940,15 +909,15 @@ national_focus = MIL
 # Napoleon II marry a princess of this line to rule as a rump "King of England" after the French kick his dad out
 # can delete if it's not a direction you want to take
 
-1710.12.24 = { #another bloody coup, another nephew-killer, Christmas and religious holidays are just bloody for Britannia
+1710.12.24 = { #another bloody coup, another nephew-killer, Christmas and religious holidays are just bloody for Britannia. As usual with English pretenders, dies in France
 	monarch = { #the Duke of Kent
 		name = "Arthur IV Tiberius"
 		dynasty = "Tudor"
 		birth_date = 1662.1.27
-		death_date = 1730.6.31 #As usual for English pretenders, in France
+		death_date = 1730.6.31 
 		adm = 3
 		dip = 5
-		mil = 3 #decent stats, otherwise how would he get the throne?
+		mil = 3 
 	}
 	add_ruler_personality = secretive_personality
 	add_ruler_personality = strict_personality
@@ -1063,6 +1032,7 @@ national_focus = MIL
 		shock = 3
 		manuever = 4
 		siege = 3
+		death_date = 1811.12.31
 	}
 	
 	leader = {	#third son of Henry XI Augustus
@@ -1073,6 +1043,7 @@ national_focus = MIL
 		shock = 3
 		manuever = 2
 		siege = 3
+		death_date = 1811.12.31
 	}
 	
 }
@@ -1088,15 +1059,16 @@ national_focus = MIL
 		adm = 4
 		dip = 2
 		mil = 2
+		death_date = 1805.8.30
 	}
 }
 
 1804.6.12 = {
-	monarch = { #third son of Henry XI Augustus
+	monarch = { #third son of Henry XI Augustus, death in battle against Napoleon, paved way for Trafalgar
 		name = "Frederick I Plutarch"
 		dynasty = "Tudor"
 		birth_date = 1774.5.24
-		death_date = 1805.8.30 #death in battle against Napoleon, paved way for Trafalgar
+		death_date = 1805.8.30 
 		adm = 3
 		dip = 2
 		mil = 4
@@ -1105,11 +1077,11 @@ national_focus = MIL
 }
 
 1805.8.30 = {
-	monarch = { #third son of Henry X Constantine, the Duke of York and Toulouse, Parliament overruled Princess Elizabeth's succession
+	monarch = { #third son of Henry X Constantine, the Duke of York and Toulouse, Parliament overruled Princess Elizabeth's succession, death by London uprising
 		name = "Edmund I Vitus"
 		dynasty = "Tudor"
 		birth_date = 1752.1.3
-		death_date = 1807.1.3 #death by London uprising
+		death_date = 1807.1.3 
 		adm = 3
 		dip = 3
 		mil = 3
@@ -1129,6 +1101,7 @@ national_focus = MIL
 		dip = 3
 		mil = 3
 	}
+	
 	add_ruler_personality = benevolent_personality
 	add_ruler_personality = well_advised_personality
 }
@@ -1143,6 +1116,7 @@ national_focus = MIL
 		dip = 2
 		mil = 4
 	}
+	clear_scripted_personalities = yes
 	add_ruler_personality = conqueror_personality
 	add_ruler_personality = expansionist_personality
 	
@@ -1151,8 +1125,10 @@ national_focus = MIL
 	heir = { #do you have any attachement to the name "James"? If yes, can just delete this one
 		name = "Edward Albert"
 		monarch_name = "Edward X Albert"
-		dynasty = "von Britannia" #no polygamy just yet
+		dynasty = "von Britannia"
 		birth_date = 1797.4.26
+		death_date = 1850.7.9
+	    claim = 95
 		adm = 5
 		dip = 4
 		mil = 3

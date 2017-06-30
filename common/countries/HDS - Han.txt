@@ -55,6 +55,12 @@ monarch_names = { #previously we had temple names down here, temple names are ba
 	"Yuanhui #0" = 1
 	"Luowen #0" = 1
 	"Luofeng #0" = 1
+	"Xiaoshun #0" = 1
+	"Xiaowu #0" = 1
+	"Shengyao #0" = 1
+	"Zhaowen #0" = 1
+	"Shouli #0" = 1
+	"Shoumeng #0" = 1
 	
 	#Shouldn't really include female names, Tianzi's ascension should honestly be a special event
 	"Lihua #0" = -1	  #Lihua Jiang/Tianzi
@@ -65,6 +71,23 @@ monarch_names = { #previously we had temple names down here, temple names are ba
 	"Xingke #0" = 0	  #Xingke Li
 	"Gu #0" = 0		  #Gu Hong
 	"Yuanming #0" = 0 #Yuanming Cao of Militarized Zone of Liaodong
+	"Biao" = 0
+	"Zetao" = 0
+	"Congyan" = 0
+	"Degong" = 0
+	"Shizhao" = 0
+	"Wande" = 0
+	"Yan" = 0
+	"Hu" = 0
+	"Runhu" = 0
+	"Taichong" = 0
+	"Wenrui" = 0
+	"Wenxing" = 0
+	"Jie" = 0
+	"Tao" = 0
+	"Qiu" = 0
+	"Shun" = 0
+	
 	
 	"Xianglin #0" = 0 #Xianglin Zhou
 	
@@ -90,20 +113,21 @@ ship_names = {
 
 army_names = {
 	"Dragon Army"
-	"Army of $PROVINCE$ Commandery"
-	
 	"Celestial Imperial Army"
-	
-	"Liaodong Circuitry" "Jizhou Circuitry" "Menggu Circuitry"  "Qinghai Circuitry"
-	
-	"Anxi Commandery" "Andong Commandery" "Chaoxian Commandery" "Anbei Commandery" "Annan Commandery"
-	
 	"Feathered Forest Guards" "Tiger Valiance Guards"
 	"Divine Machinery" "Divine Martial" "Divine Strategem"
 	"Embroidered Cloaks"
 	"Longwu Army" "Longxiang Army" "Longwei Army"
 	"Tianxiong Army" "Tianxing Army"
 	"Juezhang Guards" "Sheshen Firearms Guards" "Qianniu Grenadier Guards" "Xiaoqi Horse Guards"
+	
+	"Liaodong Circuitry" "Jizhou Circuitry" "Menggu Circuitry"  "Qinghai Circuitry"
+	
+	"Anxi Commandery" "Andong Commandery" "Chaoxian Commandery" "Anbei Commandery" "Annan Commandery"
+	
+	"Army of $PROVINCE$ Commandery"
+	
+	
 	
 	
 }
