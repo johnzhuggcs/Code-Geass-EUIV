@@ -64,9 +64,9 @@ monarch_names = { #previously we had temple names down here, temple names are ba
 	
 	#Shouldn't really include female names, Tianzi's ascension should honestly be a special event
 	"Lihua #0" = -1	  #Lihua Jiang/Tianzi
-	"Huaixiu #0" = 0
-	"Meilan #0" = 0
-	"Meiying #0" = 0
+	"Huaixiu #0" = -1
+	"Meilan #0" = -1
+	"Meiying #0" = -1
 	
 	"Xingke #0" = 0	  #Xingke Li
 	"Gu #0" = 0		  #Gu Hong
